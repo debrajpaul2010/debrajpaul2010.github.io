@@ -15,6 +15,11 @@ background-color:Black ;
 color: crimson; 
 }
 </style>
+<script>
+function get_image(n){
+  return "https://assets.pokemon.com/assets/cms2/img/pokedex/full/"+n.toString()+".png"
+}
+</script>
 </head>
 <body>
 <h1>
@@ -34,7 +39,7 @@ Signature Move = Mat Block
 </li>
 </ul>
 </div>
-<img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/658.png" alt="Its a photo of greninja" width="300" height="300">
+<img src=get_image(658) alt="Its a photo of greninja" width="300" height="300">
 <h2>Dracovish</h2>
 <p class ="info">
 Dracovish can run faster on the seafloor than it can swim 
